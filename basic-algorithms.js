@@ -16,7 +16,7 @@ if(hacker1.length === hacker2.length){
 }
 
 function bigLetters(name){
-    let modifiedName = ''
+    let modifiedName = '';
     for(let i=0; i<name.length; i++){
         modifiedName += `${name[i].toUpperCase()} `; 
     }
@@ -32,11 +32,11 @@ function fromLast(name){
 }
 
 function lexicographic (name1,name2){
-    let n=name1.localeCompare(name2);
+    let n = name1.localeCompare(name2);
     
-    if (n===0) {
+    if (n === 0) {
         console.log('What?!you have the same name')
-    } else if (n === 1){
+    } else if (n === 1) {
         console.log (`yo, the navigator goes first definitely`  )
     } else { console.log("The drivers name goes first") }
 } 
